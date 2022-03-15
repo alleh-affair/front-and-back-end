@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(121, 121, 121);
+    display: block;
+    color: rgb(95, 1, 184);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+}
+
+input{
+    width: 150px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type=radio]{
+    width: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type=checkbox]{
+    width: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+select{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a{
+    background-color: rgb(255, 0, 212);
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: rgb(109, 0, 172);
+}
+button{
+    background-color: rgb(247, 0, 255);
+    border-radius: 10px;
+}
+img{
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-right: 35px;
+    padding-left: 35px;
+    max-width: 25px;
+    max-height: 25px;
+}
